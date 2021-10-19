@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 一些必须的命令
+npm install
+npm install react-scripts
+npm install -g yarn
+npm install antd --save
+yarn add react-app-rewired customize-cra babel-plugin-import 
+yarn add antd
+npm install -g less
