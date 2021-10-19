@@ -77,3 +77,4 @@ npm install antd --save
 yarn add react-app-rewired customize-cra babel-plugin-import 
 yarn add antd
 npm install -g less
+npm install less-loader@5.0.0 //注意使用的一定是这个版本，太高版本会出错
