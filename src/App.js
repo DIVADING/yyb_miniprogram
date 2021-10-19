@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
+import { Button } from 'antd';
 export default class App extends Component {
 render(){
-      <div>APP页面</div>
+  return(
+    <div>App主组件</div>
   )
 }
 }
