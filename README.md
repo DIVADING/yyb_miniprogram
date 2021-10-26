@@ -77,4 +77,17 @@ npm install antd --save
 yarn add react-app-rewired customize-cra babel-plugin-import 
 yarn add antd
 npm install -g less
-npm install less-loader@5.0.0 //注意使用的一定是这个版本，太高版本会出错
+npm install less-loader@5.0.0 //注意使用是这个版本，太高版本会出错
+
+
+## 在 create-react-app 中定制主题
+yarn add react-app-rewired customize-cra
+报错：Error: Cannot find module 'react-scripts/package.json'
+解决：npm install --save react-scripts
+
+### 安装路由
+yarn add react-router-dom
+### V4图标升级
+npm install --save @ant-design/icons
+### 安装axios
+yarn add axios
