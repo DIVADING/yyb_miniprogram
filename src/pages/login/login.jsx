@@ -8,6 +8,7 @@ import {
     InfoOutlined
 } from '@ant-design/icons';
 import logo from './images/logo.png'
+import ajax from '../../api/ajax.js'
 const Item = Form.Item;
 
 export default class Login extends Component {
@@ -15,6 +16,8 @@ export default class Login extends Component {
 
     handleSubmit = value => {
         console.log(value)
+        ajax("http://192.168.1.119:8080/eggQuality/pageInit",{"clientId":590},"POST").then().catch((error)=>{
+        })
     }
     onFinish = value => {
         this.formRef.current.resetFields();
